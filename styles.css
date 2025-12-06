@@ -61,11 +61,10 @@ body {
 
 .goals {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    padding: 30px 40px;
+    justify-content: center;   
+    align-items: flex-start;   
+    gap: 80px;                 
+    padding: 40px 0;
 }
 
 .goals p {
@@ -74,22 +73,25 @@ body {
     color: grey;
     justify-content: center;
     text-align: justify;
+    max-width: 400px;
+      line-height: 1.6;
 }
 
 .goals h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     color: grey;
+    text-align: center;
 }
 
 .services {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     gap: 40px;
     margin: 0 auto;
-    position: relative;
+    max-width: 1000px;  
 }
 
 .services img {
