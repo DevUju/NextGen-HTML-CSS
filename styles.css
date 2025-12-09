@@ -74,7 +74,7 @@ body {
     justify-content: center;
     text-align: justify;
     max-width: 400px;
-      line-height: 1.6;
+    line-height: 1.6;
 }
 
 .goals h3 {
@@ -99,4 +99,15 @@ body {
     height: 200px;
     padding: 20px;
     border-radius: 50%;
+}
+
+.footer {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20x;
+    color: grey;
+    background-color: grey;
+    color: white;
+    margin: 0 auto;
+    padding: 40px;
 }
