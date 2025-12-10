@@ -126,6 +126,10 @@ body {
     line-height: 1.6;
 }
 
+.product {
+    text-align: center;
+}
+
 .services .product {
     cursor: pointer;       
 }
